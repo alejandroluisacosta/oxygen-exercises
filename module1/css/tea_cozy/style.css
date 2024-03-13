@@ -8,6 +8,7 @@ body {
 
 .nav {
     display: flex;
+    height: 69px;
 }
 
 #logo {
@@ -30,12 +31,24 @@ body {
 .main {
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*tbrash*_ga*MTQ1NzYyMTY3MS4xNzEwMDAyMjM3*_ga_3LRZM6TM9L*MTcxMDMzNjc3NC4xMS4xLjE3MTAzNDExMTkuMC4wLjA.");
     height: 700px;
+    width: 1200px;
     color: black;
     opacity: 0.9;
+    margin: 0 auto;
+}
+
+.mission {
+    text-align: center;
+}
+
+.tea-month {
+    
 }
 
 .tea-month__options {
-    display: flexbox;
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
 }
 
 .tea-month__options__image {
