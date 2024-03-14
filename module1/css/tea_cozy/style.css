@@ -28,30 +28,71 @@ body {
     text-decoration: underline;
 }
 
-.main {
-    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*tbrash*_ga*MTQ1NzYyMTY3MS4xNzEwMDAyMjM3*_ga_3LRZM6TM9L*MTcxMDMzNjc3NC4xMS4xLjE3MTAzNDExMTkuMC4wLjA.");
+.header {
     height: 700px;
     width: 1200px;
-    color: black;
-    opacity: 0.9;
+    text-align: center;
     margin: 0 auto;
+    position: relative;
 }
 
-.mission {
+.mission-img {
+    width: 100%;
+}
+
+.mission-text {
     text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    background-color: black;
+    color: seashell;
+    padding: 1%;
+}
+
+.mission-text__text {
+    margin: 0;
+}
+
+#mission-text__text__h2 {
+    margin-bottom: 0.5em;
 }
 
 .tea-month {
-    
+    margin-top: 10em;
+    position: relative;
+    width: 80%;
+    text-align: center;
+    margin: auto;
 }
 
 .tea-month__options {
     display: flex;
-    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea-month__options__container {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 2em;
+}
+
+.tea-month__options__container__image {
+    width: 100%;
+    height: 100%;
+}
+
+.locations {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*pv58at*_ga*MTQ1NzYyMTY3MS4xNzEwMDAyMjM3*_ga_3LRZM6TM9L*MTcxMDQwMzc1OC4xNC4xLjE3MTA0MDM3NjcuMC4wLjA.');
+}
+
+.location__container {
+    display: flex;
     flex-wrap: wrap;
 }
 
-.tea-month__options__image {
+.locations__container__address {
+    background-color: black;
     width: 300px;
-    height: 200px;
 }
