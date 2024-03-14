@@ -59,7 +59,7 @@ body {
 }
 
 .tea-month {
-    margin-top: 10em;
+    top: 7.5em;
     position: relative;
     width: 80%;
     text-align: center;
@@ -85,6 +85,7 @@ body {
 
 .locations {
     background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*pv58at*_ga*MTQ1NzYyMTY3MS4xNzEwMDAyMjM3*_ga_3LRZM6TM9L*MTcxMDQwMzc1OC4xNC4xLjE3MTA0MDM3NjcuMC4wLjA.');
+    margin-top: 10em;
 }
 
 .location__container {
