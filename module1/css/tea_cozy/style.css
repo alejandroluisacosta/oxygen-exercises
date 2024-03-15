@@ -12,6 +12,7 @@ body {
     background-color: black;
     justify-content: space-between;
     z-index: 1;
+    border-bottom: 1px seashell solid;
 }
 
 #logo {
