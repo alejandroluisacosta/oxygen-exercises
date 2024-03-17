@@ -52,7 +52,10 @@ body {
     font-size: 24px;
 }
 
-figure {
+figure,
+p,
+h4
+{
     margin: 0; 
 }
 
@@ -84,21 +87,27 @@ figure {
     color: white;
     background-color: #252525;
     display: flex;
-    border-radius: 15px;
+    border-radius: 40px;
     width: 1312px;
     height: 298px;
     position: absolute;
-    justify-content: center;
+    justify-content: space-between;
     left: 50%;
     transform: translateX(-50%);
     bottom: 60px;
 }
 
 .bottom-container__list__items {
-    margin: 64px 64px;
-    font-size: 24px;
+    width: 316px;
+    height: 170px;
+    margin: 64px;
+    font-size: 22px;
+    line-height: 32.78px;
 }
 
 .bottom-container__list__items__title {
     margin-top: 36px;
+    margin-bottom: 24px;
+    font-size: 32px;
+    opacity: 0.8;
 }
