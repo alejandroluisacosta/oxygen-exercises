@@ -6,15 +6,13 @@ html {
 
 body {
     margin: 0;
-    padding-top: 92px, 
     width: 100%;
     height: 100%;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+.top-container {
+    display: flex;
+    position: relative;
     height: 55%;
 }
 
@@ -22,12 +20,13 @@ body {
 
 }
 
-.images-container {
-    grid-area: 1 / 3 / span 2 / span 2;
+.top-container__images-container {
+    width: 547.67px;
+    height: 518.66px;
     position: relative;
 }
 
-.images-container__image {
+.top-container__images-container__image {
     position: absolute;
     height: 385px;
     width: 323px;
@@ -47,9 +46,9 @@ body {
     height: 298px;
     position: absolute;
     justify-content: center;
-    bottom: 60px;
     left: 50%;
     transform: translateX(-50%);
+    bottom: 60px;
 }
 
 .bottom-container__list__items {
