@@ -7,31 +7,52 @@
 
     &__get-started
         width: 83.4%
+        height: 374px
         margin-top: 269px
         margin-left: 69px
+        margin-bottom: 110px
+
+        &__title
+            font-size: 56px
+            margin: 0
 
         &__description
             width: 78.6%
+            font-size: 24px
+
+        &__button
+            width: 37%
+            height: 17.6%
+            border-radius: 40px
+            color: white
+            background-color: #333333
+            font-size: 22px
 
     &__information
+        height: 26.7%
         grid-row-start: 2
         grid-column-start: 1
         display: grid
         grid-template-columns: repeat(2, 1fr)
         grid-template-rows: repeat(2, 1fr)
-        justify-content: center
+        
+        &__item
+            justify-self: center
+            font-size: 16px
 
         #one
             grid-row-start: 1
             grid-column-start: 1
-            width: 40%
+            width: 75.8%
 
         #two
             grid-row-start: 1
             grid-column-start: 2
+            width: 75.8%
 
         #three
             grid-area: 2 / 1 / span 2 / span 2
+            width: 83%
 
     &__image-container
         width: 100%
