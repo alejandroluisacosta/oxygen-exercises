@@ -5,6 +5,7 @@ html {
 
 body {
   margin: 0;
+  position: relative;
   width: 87.8%;
   height: 92%;
 }
@@ -41,6 +42,54 @@ body {
 .bottom-container {
   width: 100%;
   height: 55.25%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.bottom-container__get-started {
+  width: 83.4%;
+  margin-top: 269px;
+  margin-left: 69px;
+}
+.bottom-container__get-started__description {
+  width: 78.6%;
+}
+.bottom-container__information {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+}
+.bottom-container__information #one {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  width: 40%;
+}
+.bottom-container__information #two {
+  grid-row-start: 1;
+  grid-column-start: 2;
+}
+.bottom-container__information #three {
+  grid-area: 2/1/span 2/span 2;
+}
+.bottom-container__image-container {
+  width: 100%;
+  height: 71.6%;
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-row: span 2;
+}
+.bottom-container__image-container__image {
+  width: 100%;
+  height: 100%;
+  margin-top: 203px;
+}
+
+.list {
+  position: absolute;
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
