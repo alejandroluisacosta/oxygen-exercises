@@ -12,6 +12,14 @@ body {
 .top-container {
   width: 100%;
   height: 44.75%;
+  position: relative;
+}
+.top-container__main {
+  width: 47%;
+  height: 41%;
+  position: absolute;
+  top: 242px;
+  left: 382px;
 }
 
 .bottom-container {
