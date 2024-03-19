@@ -1,0 +1,22 @@
+html {
+  width: 1640px;
+  height: 2488px;
+}
+
+body {
+  margin: 0;
+  width: 87.8%;
+  height: 92%;
+}
+
+.top-container {
+  width: 100%;
+  height: 44.75%;
+}
+
+.bottom-container {
+  width: 100%;
+  height: 55.25%;
+}
+
+/*# sourceMappingURL=style.css.map */
