@@ -20,6 +20,22 @@ body {
   position: absolute;
   top: 242px;
   left: 382px;
+  text-align: center;
+}
+.top-container__main__title {
+  font-size: 80px;
+  font-weight: 700;
+}
+.top-container__main__description {
+  width: 93.4%;
+  font-size: 24px;
+}
+.top-container__main__button {
+  width: 32.8%;
+  height: 15.8%;
+  border-radius: 40px;
+  color: white;
+  background-color: #06040A;
 }
 
 .bottom-container {
