@@ -30,29 +30,32 @@
 
     &__information
         height: 26.7%
+        width: 581px
         grid-row-start: 2
         grid-column-start: 1
-        display: grid
         grid-template-columns: repeat(2, 1fr)
         grid-template-rows: repeat(2, 1fr)
-        
+        margin-left: 64px
+
+        &__flex
+            display: flex
+            justify-content: space-between
+            margin-bottom: 32px
+
+            &__item
+                width: 273px
+                &__
+
         &__item
+            width: 100%px                
+        
+        &__item, &__flex__item
             justify-self: center
             font-size: 16px
+            height: 161px
+            background-color: #F4F4F4
+            border-radius: 24px
 
-        #one
-            grid-row-start: 1
-            grid-column-start: 1
-            width: 75.8%
-
-        #two
-            grid-row-start: 1
-            grid-column-start: 2
-            width: 75.8%
-
-        #three
-            grid-area: 2 / 1 / span 2 / span 2
-            width: 83%
 
     &__image-container
         width: 100%
