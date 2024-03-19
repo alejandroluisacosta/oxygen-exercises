@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 100px;
   position: relative;
   width: 87.8%;
   height: 92%;
@@ -114,8 +114,30 @@ body {
 }
 
 .list {
+  color: white;
+  background-color: #252525;
+  display: flex;
+  border-radius: 40px;
+  width: 1312px;
+  height: 251px;
   position: absolute;
-  display: none;
+  justify-content: space-around;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 966px;
+}
+.list__items {
+  width: 285px;
+  height: 143px;
+  margin: 54.1px;
+  font-size: 20px;
+  line-height: 27px;
+}
+.list__items__title {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 32px;
+  opacity: 0.8;
 }
 
 /*# sourceMappingURL=style.css.map */
